@@ -1,0 +1,385 @@
+{
+    "user": {
+        "item": [{
+                "type": "text",
+                "name": "userName",
+                "value": "",
+                "placeholder": "请输入姓名",
+                "width": "100%",
+                "label": "姓名",
+                "show": true
+            },
+            {
+                "type": "text",
+                "name": "phone",
+                "value": "",
+                "placeholder": "请输入电话号码",
+                "label": "电话",
+                "width": "100%",
+                "show": true
+            },
+            {
+                "type": "select",
+                "name": "roleid",
+                "cname": "roleid",
+                "value": "",
+                "placeholder": "请选择角色类型",
+                "filterable": true,
+                "width": "100%",
+                "label": "角色类型:",
+                "show": true,
+                "options": [{
+                    "value": "全部",
+                    "label": ""
+                }]
+            }, {
+                "type": "date",
+                "name": "createtime",
+                "placeholder": "创建时间",
+                "value": "",
+                "width": "100%",
+                "label": "创建时间:",
+                "show": true,
+                "format": "yyyy-MM-dd",
+                "rules": [{
+                    "required": true,
+                    "message": "创建时间",
+                    "trigger": "blur"
+                }]
+            }
+        ],
+        "data": {
+            "userName": "",
+            "phone": "",
+            "createtime": "",
+            "roleid": ""
+        }
+    },
+    "countTable": {
+        "item": [{
+            "type": "text",
+            "name": "name",
+            "value": "",
+            "placeholder": "请输入姓名",
+            "label": "姓名",
+            "width": "100%",
+            "show": true
+        }],
+        "data": {
+            "name": "",
+            "phone": ""
+        }
+    },
+    "teacher": {
+        "item": [{
+            "type": "text",
+            "name": "userName",
+            "value": "",
+            "placeholder": "请输入姓名",
+            "label": "姓名",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "select",
+            "name": "classesId",
+            "cname": "classesId",
+            "value": "",
+            "placeholder": "请选择班级",
+            "filterable": true,
+            "width": "100%",
+            "label": "班级",
+            "show": true,
+            "options": []
+        }, {
+            "type": "text",
+            "name": "classesid",
+            "value": "",
+            "placeholder": "请输入电话",
+            "label": "电话",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "date",
+            "name": "createtime",
+            "placeholder": "创建时间",
+            "value": "",
+            "width": "100%",
+            "label": "创建时间:",
+            "show": true,
+            "format": "yyyy-MM-dd",
+            "rules": [{
+                "required": true,
+                "message": "创建时间",
+                "trigger": "blur"
+            }]
+        }],
+        "data": {
+            "userName": "",
+            "phone": "",
+            "classesId": "",
+            "createtime": ""
+        }
+    },
+    "assignRights": {
+        "item": [{
+            "type": "checkbox",
+            "name": "tbMenusFilter",
+            "value": [],
+            "options": [],
+            "label": "操作权限筛选",
+            "placeholder": "操作权限筛选",
+            "width": "100%",
+            "show": true
+        }],
+        "data": {
+            "tbMenusFilter": ""
+        }
+    },
+    "role": {
+        "item": [{
+            "type": "text",
+            "name": "rolename",
+            "value": "",
+            "label": "角色名",
+            "placeholder": "请输入角色名称",
+            "width": "100%",
+            "show": true
+        }],
+        "data": {
+            "rolename": ""
+        }
+    },
+    "subject": {
+        "item": [{
+            "type": "text",
+            "name": "name",
+            "value": "",
+            "placeholder": "请输入科目名称",
+            "label": "科目",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "date",
+            "name": "createtime",
+            "placeholder": "创建时间",
+            "value": "",
+            "width": "100%",
+            "label": "创建时间",
+            "show": true,
+            "format": "yyyy-MM-dd",
+            "rules": [{
+                "required": true,
+                "message": "创建时间",
+                "trigger": "blur"
+            }]
+        }],
+        "data": {
+            "name": "",
+            "createtime": ""
+        }
+    },
+
+    "theClass": {
+        "item": [{
+            "type": "text",
+            "name": "name",
+            "value": "",
+            "placeholder": "请输入班级名称",
+            "label": "班级名称",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "select",
+            "name": "teacherid",
+            "value": "",
+            "placeholder": "请输入班主任姓名",
+            "width": "100%",
+            "label": "班主任:",
+            "show": true,
+            "options": []
+        }, {
+            "type": "date",
+            "name": "createtime",
+            "placeholder": "创建时间",
+            "value": "",
+            "width": "100%",
+            "label": "创建时间",
+            "show": true,
+            "format": "yyyy-MM-dd"
+        }],
+        "data": {
+            "name": "",
+            "teacherid": "",
+            "createtime": ""
+        }
+    },
+    "student": {
+        "item": [{
+            "type": "text",
+            "name": "userName",
+            "value": "",
+            "placeholder": "请输入姓名",
+            "label": "姓名",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "text",
+            "name": "parentsName",
+            "value": "",
+            "placeholder": "请输入家长姓名",
+            "label": "家长",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "text",
+            "name": "theclass",
+            "value": "",
+            "placeholder": "请输入班级",
+            "label": "班级",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "date",
+            "name": "createTime",
+            "placeholder": "创建时间",
+            "value": "",
+            "width": "100%",
+            "label": "创建时间",
+            "show": true,
+            "format": "yyyy-MM-dd"
+        }],
+        "data": {
+            "userName": "",
+            "theclass": "",
+            "createTime": "",
+            "parentsName": ""
+        }
+    },
+    "messageList": {
+        "item": [{
+            "type": "text",
+            "name": "content",
+            "value": "",
+            "placeholder": "请输入内容",
+            "label": "内容",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "date",
+            "name": "createTime",
+            "placeholder": "创建时间",
+            "value": "",
+            "width": "100%",
+            "label": "创建时间:",
+            "show": true,
+            "format": "yyyy-MM-dd",
+            "rules": [{
+                "required": true,
+                "message": "创建时间",
+                "trigger": "blur"
+            }]
+        }],
+        "data": {
+            "content": "",
+            "createTime": ""
+        }
+    },
+    "course": {
+        "item": [{
+            "type": "text",
+            "name": "title",
+            "value": "",
+            "placeholder": "请输入标题",
+            "label": "标题",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "text",
+            "name": "user_name",
+            "value": "",
+            "placeholder": "请输入教师名",
+            "label": "教师",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "text",
+            "name": "classesName",
+            "value": "",
+            "placeholder": "请输入班级名",
+            "label": "班级",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "date",
+            "name": "startTime",
+            "placeholder": "请输入",
+            "value": "",
+            "width": "100%",
+            "label": "创建日期:",
+            "show": true,
+            "format": "yyyy-MM-dd"
+        }, {
+            "type": "date",
+            "name": "endTime",
+            "placeholder": "终止日期",
+            "value": "",
+            "width": "100%",
+            "label": "终止日期:",
+            "show": false,
+            "format": "yyyy-MM-dd hh:mm:ss"
+        }],
+        "data": {
+            "title": "",
+            "user_name": "",
+            "classesName": "",
+            "endTime": "",
+            "startTime": ""
+        }
+    },
+    "culturalEducation": {
+        "item": [{
+            "type": "text",
+            "name": "title",
+            "value": "",
+            "placeholder": "请输入标题",
+            "label": "标题",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "text",
+            "name": "content",
+            "value": "",
+            "placeholder": "请输入内容",
+            "label": "内容",
+            "width": "100%",
+            "show": true
+        }, {
+            "type": "text",
+            "name": "author",
+            "value": "",
+            "placeholder": "请输入作者",
+            "label": "作者",
+            "width": "100%",
+            "show": true
+        }],
+        "data": {
+            "title": "",
+            "content": "",
+            "author": ""
+        }
+    },
+    "event": {
+        "item": [{
+            "type": "text",
+            "name": "title",
+            "value": "",
+            "placeholder": "请输入活动名称",
+            "label": "名称",
+            "width": "100%",
+            "show": true
+        }],
+        "data": {
+            "title": ""
+        }
+    }
+}

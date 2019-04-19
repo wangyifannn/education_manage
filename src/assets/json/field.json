@@ -1,0 +1,591 @@
+{
+    "user": [{
+            "prop": "userName",
+            "label": "姓名",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "code",
+            "label": "绑定码",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "userStatus",
+            "label": "用户状态",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "roleName",
+            "label": "角色类型",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "sexName",
+            "label": "性别",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "className",
+            "label": "班级",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "phone",
+            "label": "电话",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "address",
+            "label": "地址",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createtime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "fansUser": [{
+            "prop": "nickname",
+            "label": "昵称",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "subscribeText",
+            "label": "关注状态",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "sex",
+            "label": "性别",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "province",
+            "label": "省",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "city",
+            "label": "城市",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+
+        {
+            "prop": "createtime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "isblack",
+            "label": "用户状态",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "roles": [{
+            "prop": "rolename",
+            "label": "角色名",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "description",
+            "label": "备注",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createTime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "countTable": [{
+            "prop": "name",
+            "label": "用户",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "phone",
+            "label": "电话",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createTime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "knowledge": [{
+            "prop": "name",
+            "label": "题库名称",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createtime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "updateTime",
+            "label": "更新时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "convenienceSearch": [{
+            "prop": "scenicSpotName",
+            "label": "景区名称",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "openTime",
+            "label": "景区开放时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "ticketPrice",
+            "label": "门票价格",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "phone",
+            "label": "订票电话",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "busRoute",
+            "label": "公交路线",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "updateTime",
+            "label": "上传时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "culturalEducation": [{
+            "prop": "author",
+            "label": "作者",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "title",
+            "label": "标题",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "description",
+            "label": "描述",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "updateTime",
+            "label": "上传时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "folk": [{
+            "prop": "scenicSpotName",
+            "label": "标题",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "description",
+            "label": "描述",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "messageList": [{
+            "prop": "headImage",
+            "label": "用户头像",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": false
+        }, {
+            "prop": "content",
+            "label": "留言内容",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createTime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "subject": [{
+            "prop": "name",
+            "label": "科目名",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createtime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "theClass": [{
+            "prop": "name",
+            "label": "班级名称",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "content",
+            "label": "班级介绍",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "teacherName",
+            "label": "班主任",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "StudentCount",
+            "label": "总人数",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createtime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "course": [{
+            "prop": "title",
+            "label": "标题",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "subjectName",
+            "label": "科目",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "user_name",
+            "label": "教师",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "click_number",
+            "label": "点击数",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "classesName",
+            "label": "班级名称",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createtime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "teacher": [{
+            "prop": "userName",
+            "label": "姓名",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "phone",
+            "label": "电话",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "sexName",
+            "label": "性别",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "className",
+            "label": "班级",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "address",
+            "label": "地址",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createtime",
+            "label": "创建日期",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "student": [{
+            "prop": "userName",
+            "label": "姓名",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "className",
+            "label": "班级",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "sexName",
+            "label": "性别",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "phone",
+            "label": "电话",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "address",
+            "label": "地址",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "parentName",
+            "label": "家长姓名",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": false
+        },
+        {
+            "prop": "parentPhone",
+            "label": "家长电话",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": false
+        },
+        {
+            "prop": "createtime",
+            "label": "创建时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ],
+    "event": [{
+            "prop": "acount",
+            "label": "标题",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }, {
+            "prop": "userName",
+            "label": "时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "rightLevel",
+            "label": "地点",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "operateContent",
+            "label": "内容",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "operateTime",
+            "label": "参与人数",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        },
+        {
+            "prop": "createtime",
+            "label": "发布时间",
+            "width": "auto",
+            "fixed": false,
+            "sortable": false,
+            "show": true
+        }
+    ]
+}

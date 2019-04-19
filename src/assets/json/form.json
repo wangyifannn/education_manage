@@ -1,0 +1,628 @@
+{
+    "pass": {
+        "item": [{
+            "type": "text",
+            "name": "loginPwd",
+            "value": "",
+            "placeholder": "请输入密码",
+            "width": "100%",
+            "label": "密码:",
+            "show": true,
+            "rules": [{
+                "required": true,
+                "message": "请输入密码",
+                "trigger": "blur"
+            }, {
+                "min": 6,
+                "message": "密码长度不能小于6位",
+                "trigger": "change"
+            }, {
+                "min": 6,
+                "message": "密码长度不能小于6位",
+                "trigger": "blur"
+            }]
+        }],
+        "data": {
+            "loginPwd": ""
+        }
+    },
+    "user": {
+        "item": [{
+                "type": "radioGroup",
+                "name": "roleid",
+                "placeholder": "角色类型",
+                "width": "100",
+                "label": "角色类型:",
+                "show": true,
+                "value": [],
+                "disabled": false,
+                "rules": [{
+                    "required": true,
+                    "message": "请选择角色类型",
+                    "trigger": "blur"
+                }],
+                "options": [{
+                    "id": "1",
+                    "value": "1",
+                    "label": "admin",
+                    "name": "1"
+                }, {
+                    "id": "2",
+                    "value": "2",
+                    "label": "校长",
+                    "name": "2"
+                }, {
+                    "id": "3",
+                    "value": "3",
+                    "label": "教务",
+                    "name": "3"
+                }, {
+                    "id": "4",
+                    "value": "4",
+                    "label": "教师",
+                    "name": "4"
+                }, {
+                    "id": "5",
+                    "value": "5",
+                    "label": "学员",
+                    "name": "5"
+                }]
+            }, {
+                "type": "select",
+                "name": "classesId",
+                "placeholder": "班级",
+                "width": "100",
+                "label": "班级:",
+                "disabled": false,
+                "rules": [{
+                    "required": true,
+                    "message": "请选择班级",
+                    "trigger": "blur"
+                }],
+                "show": true,
+                "value": [],
+                "options": [{
+                    "id": "1",
+                    "value": "1",
+                    "label": "三年一班",
+                    "name": "1"
+                }, {
+                    "id": "2",
+                    "value": "2",
+                    "label": "一年一班",
+                    "name": "2"
+                }, {
+                    "id": "3",
+                    "value": "3",
+                    "label": "10班",
+                    "name": "3"
+                }]
+            }, {
+                "type": "radioGroup",
+                "name": "sex",
+                "placeholder": "性别",
+                "width": "100",
+                "label": "性别:",
+                "show": true,
+                "value": [],
+                "rules": [{
+                    "required": true,
+                    "message": "请选择性别",
+                    "trigger": "blur"
+                }],
+                "options": [{
+                    "id": "",
+                    "value": "1",
+                    "label": "男",
+                    "name": "1"
+                }, {
+                    "id": "",
+                    "value": "2",
+                    "label": "女",
+                    "name": "2"
+                }]
+            }, {
+                "type": "text",
+                "name": "userName",
+                "value": "",
+                "placeholder": "请输入姓名",
+                "width": "100%",
+                "label": "姓名:",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入姓名",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "password",
+                "name": "loginPwd",
+                "value": "",
+                "placeholder": "请输入密码",
+                "width": "100%",
+                "label": "密码:",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入密码",
+                    "trigger": "blur"
+                }, {
+                    "min": 6,
+                    "message": "密码长度不能小于6位",
+                    "trigger": "change"
+                }, {
+                    "min": 6,
+                    "message": "密码长度不能小于6位",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "text",
+                "name": "phone",
+                "value": "",
+                "rule": "phone",
+                "placeholder": "请输入电话",
+                "width": "100%",
+                "label": "电话:",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入电话",
+                    "trigger": "blur"
+                }]
+            }, {
+                "type": "text",
+                "name": "address",
+                "value": "",
+                "placeholder": "请输入地址",
+                "width": "100%",
+                "label": "地址:",
+                "show": true,
+                "rules": [{
+                    "required": false,
+                    "message": "请输入地址",
+                    "trigger": "blur"
+                }]
+            }
+        ],
+        "data": {
+            "id": "",
+            "roleid": "",
+            "classesId": "",
+            "userName": "",
+            "sex": "",
+            "loginPwd": "",
+            "phone": "",
+            "address": "",
+            "imgPath": ""
+        }
+    },
+    "subject": {
+        "item": [{
+                "type": "text",
+                "name": "name",
+                "label": "科目名称",
+                "show": true,
+                "value": [],
+                "options": []
+            },
+            {
+                "type": "text",
+                "name": "description",
+                "label": "描述",
+                "show": false,
+                "value": [],
+                "options": []
+            }
+        ],
+        "data": {
+            "name": "",
+            "description": ""
+        }
+    },
+    "theClass": {
+        "item": [{
+                "type": "select",
+                "name": "school",
+                "value": "",
+                "placeholder": "请选择学校",
+                "width": "100%",
+                "label": "学校名称:",
+                "show": true,
+                "rules": [{
+                    "required": false,
+                    "message": "请选择学校",
+                    "trigger": "blur"
+                }]
+            }, {
+                "type": "text",
+                "name": "name",
+                "value": "",
+                "placeholder": "请输入班级名称",
+                "width": "100%",
+                "label": "班级名称:",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入班级名称",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "select",
+                "name": "teacherid",
+                "cname": "teacherid",
+                "value": "",
+                "placeholder": "请选择班主任",
+                "width": "100%",
+                "label": "班主任:",
+                "show": true,
+                "options": [{}],
+                "rules": [{
+                    "required": true,
+                    "message": "请选择班主任",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "textarea",
+                "name": "content",
+                "value": "",
+                "placeholder": "请输入班级介绍",
+                "width": "100%",
+                "label": "班级介绍:",
+                "show": true
+            }
+        ],
+        "data": {
+            "id": "",
+            "schoolId": "",
+            "name": "",
+            "teacherid": "",
+            "content": ""
+        }
+    },
+    "role": {
+        "item": [{
+                "type": "text",
+                "name": "rolename",
+                "placeholder": "请输入角色名",
+                "value": "",
+                "width": "80",
+                "label": "角色名:",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入角色名",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "text",
+                "name": "description",
+                "placeholder": "请输入备注",
+                "value": "",
+                "width": "80",
+                "label": "备注:",
+                "show": true,
+                "rules": [{
+                    "required": false,
+                    "message": "请输入备注",
+                    "trigger": "blur"
+                }]
+            }
+        ],
+        "data": {
+            "id": "",
+            "rolename": "",
+            "description": ""
+        }
+    },
+    "assignRights": {
+        "item": [{
+            "type": "checkbox",
+            "name": "menuId",
+            "label": "权限菜单:",
+            "show": true,
+            "value": [],
+            "options": []
+        }],
+        "data": {
+            "menuId": "",
+            "menuId": []
+        }
+    },
+    "rights": {
+        "item": [{
+                "type": "text",
+                "name": "name",
+                "placeholder": "请输入权限名",
+                "value": "",
+                "width": "80",
+                "label": "权限名:",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入权限名",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "text",
+                "name": "keyword",
+                "placeholder": "请输入关键字",
+                "value": "",
+                "width": "80",
+                "label": "关键字:",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入关键字",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "text",
+                "name": "remark",
+                "placeholder": "请输入备注",
+                "value": "",
+                "width": "80",
+                "label": "备注:",
+                "show": true,
+                "rules": [{
+                    "required": false,
+                    "message": "请输入备注",
+                    "trigger": "blur"
+                }]
+            }
+        ],
+        "data": {
+            "id": "",
+            "name": "",
+            "keyword": "",
+            "remark": ""
+        }
+    },
+    "event": {
+        "item": [{
+                "type": "text",
+                "name": "title",
+                "value": "",
+                "placeholder": "请输入活动主题",
+                "width": "100%",
+                "label": "主题",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入活动主题",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "text",
+                "name": "money",
+                "value": "",
+                "placeholder": "请输入活动费用",
+                "label": "费用",
+                "width": "100%",
+                "show": true
+            },
+            {
+                "type": "datetime",
+                "name": "activitytime",
+                "placeholder": "请选择活动时间",
+                "value": "",
+                "width": "100%",
+                "label": "时间",
+                "show": true,
+                "format": "yyyy-MM-dd hh:mm:ss",
+                "rules": [{
+                    "required": true,
+                    "message": "请选择活动时间",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "text",
+                "name": "linkName",
+                "value": "",
+                "placeholder": "请输入联系人",
+                "label": "联系人",
+                "width": "100%",
+                "show": true
+            },
+            {
+                "type": "text",
+                "name": "address",
+                "value": "",
+                "placeholder": "请输入地点",
+                "label": "地点",
+                "width": "100%",
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请输入地点",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "text",
+                "name": "phone",
+                "value": "",
+                "placeholder": "请输入联系电话",
+                "label": "联系电话",
+                "width": "100%",
+                "rules": [],
+                "show": true
+            },
+            {
+                "type": "textarea",
+                "name": "eventContent",
+                "value": "",
+                "placeholder": "请输入内容",
+                "label": "内容",
+                "width": "100%",
+                "show": true
+            }
+
+        ],
+        "data": {
+            "id": "",
+            "title": "",
+            "activitytime": "",
+            "money": "",
+            "address": "",
+            "linkName": "",
+            "phone": "",
+            "eventContent": ""
+        }
+    },
+    "courseCreate": {
+        "item": [{
+                "type": "radioGroup",
+                "name": "articleType",
+                "placeholder": "类型",
+                "width": "100",
+                "label": "类型",
+                "show": false,
+                "value": [],
+                "disabled": true,
+                "rules": [{
+                    "required": true,
+                    "message": "请选择要发布的课程或文章类型",
+                    "trigger": "blur"
+                }],
+                "options": [{
+                    "id": "2",
+                    "value": "2",
+                    "label": "班级课程",
+                    "name": "2"
+                }, {
+                    "id": "4",
+                    "value": "4",
+                    "label": "体验区",
+                    "name": "4"
+                }, {
+                    "id": "5",
+                    "value": "5",
+                    "label": "活动圈",
+                    "name": "5"
+                }]
+            }, {
+                "type": "text",
+                "name": "title",
+                "placeholder": "请输入课程标题",
+                "value": "",
+                "label": "标题",
+                "disabled": false,
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "课程标题不能为空",
+                    "trigger": "blur"
+                }]
+            }, {
+                "type": "select",
+                "name": "subjecttype",
+                "cname": "subjecttype",
+                "value": "",
+                "placeholder": "请选择课程科目",
+                "filterable": true,
+                "width": "100%",
+                "label": "科目",
+                "show": true,
+                "options": [],
+                "rules": [{
+                    "required": true,
+                    "message": "请选择课程科目",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "select",
+                "name": "classesId",
+                "cname": "classesId",
+                "value": "",
+                "placeholder": "请选择班级",
+                "filterable": true,
+                "width": "100%",
+                "label": "班级",
+                "show": true,
+                "options": [],
+                "rules": [{
+                    "required": true,
+                    "message": "请选择班级",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "select",
+                "name": "userid",
+                "placeholder": "请选择班级将自动匹配到主讲教师",
+                "value": "",
+                "label": "教师",
+                "disabled": true,
+                "show": true,
+                "options": [],
+                "rules": [{
+                    "required": true,
+                    "message": "主讲教师不能为空,请选择班级将自动匹配到相应的主讲教师",
+                    "trigger": "blur"
+                }]
+            }
+        ],
+        "data": {
+            "articleType": "",
+            "subjecttype": "",
+            "title": "",
+            "userid": "",
+            "classesId": ""
+        }
+    },
+    "templatePage": {
+        "item": [{
+                "type": "text",
+                "name": "name",
+                "placeholder": "请输入姓名",
+                "value": "",
+                "label": "标题",
+                "disabled": false,
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "姓名不能为空",
+                    "trigger": "blur"
+                }]
+            }, {
+                "type": "text",
+                "name": "phone",
+                "placeholder": "请输入电话",
+                "value": "",
+                "label": "电话",
+                "disabled": false,
+                "show": true,
+                "rules": [{
+                    "required": true,
+                    "message": "电话不能为空",
+                    "trigger": "blur"
+                }]
+            },
+            {
+                "type": "text",
+                "name": "address",
+
+                "placeholder": "请输入地址",
+                "value": "",
+                "label": "地址",
+                "disabled": false,
+                "show": true
+            }
+        ],
+        "data": {
+            "name": "",
+            "phone": "",
+            "address": ""
+        }
+    }
+}
